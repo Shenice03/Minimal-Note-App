@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:background="@color/teal_200">
+
+    <TextView
+        android:id="@+id/stylusColorMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pick a stylus color"
+        android:textColor="?attr/textColor"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:paddingBottom="16dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <View
+            android:id="@+id/colorBlack"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="8dp"
+            android:backgroundTint="#000000"
+            android:background="@drawable/color_circle" />
+
+        <View
+            android:id="@+id/colorRed"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="8dp"
+            android:backgroundTint="#F44336"
+            android:background="@drawable/color_circle" />
+
+        <View
+            android:id="@+id/colorBlue"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="8dp"
+            android:backgroundTint="#2196F3"
+            android:background="@drawable/color_circle" />
+
+        <View
+            android:id="@+id/colorGreen"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="8dp"
+            android:backgroundTint="#4CAF50"
+            android:background="@drawable/color_circle" />
+
+    </LinearLayout>
+</LinearLayout>

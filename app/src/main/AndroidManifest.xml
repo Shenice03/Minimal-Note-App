@@ -1,0 +1,38 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <application
+        android:theme="@style/AppTheme"
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name">
+
+        <!-- Enabling Profiler -->
+        <profileable android:shell="true"/>
+
+        <!-- Home Screen  -->
+        <activity android:name="ca.yorku.eecs.mack.notetakingapp.HomeActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Note Taking screen -->
+        <activity
+            android:name="ca.yorku.eecs.mack.notetakingapp.NoteActivity"
+            android:configChanges="orientation"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="adjustResize" />
+
+        <!-- Task screen -->
+        <activity android:name="ca.yorku.eecs.mack.notetakingapp.TaskActivity" />
+
+        <!-- Add Task Screen -->
+        <activity android:name=".AddTaskListActivity" />
+
+    </application>
+</manifest>
+

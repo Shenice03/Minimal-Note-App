@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="appWindowBackground">@color/background_default</item>
+        <item name="cardBackground">#f2f2f2</item>
+        <item name="textColor">@color/backgroundLight</item>
+        <item name="iconColor">#6A6A6A</item>
+        <item name="buttonFill">@color/primary</item>
+        <item name="buttonTextColor">@color/background_default</item>
+    </style>
+
+    <style name="DarkAppTheme" parent="AppTheme">
+
+        <item name="appWindowBackground">@color/dark_background</item>
+        <item name="cardBackground">#626161</item>
+        <item name="textColor">@color/backgroundDark</item>
+        <item name="iconColor">@color/text_primary</item>
+        <item name="buttonFill">@color/primary</item>
+        <item name="buttonTextColor">@color/background_default</item>
+    </style>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="teal_200">#03DAC5</color>
+    <color name="background_default">#f2f2f2</color>
+    <color name="dark_background">#333333</color>
+    <color name="cards">#F2F2F2</color>
+    <color name="primary">#00AEB7</color>
+    <color name="primary_variant">#00878F</color> <!-- Slightly darker version for ripple/pressed states -->
+    <color name="text_primary">#eeeeee</color>
+    <color name="backgroundLight">#2C2C2C</color>
+    <color name="backgroundDark">#FFFFFF</color>
+</resources>

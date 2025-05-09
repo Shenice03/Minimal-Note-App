@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr format="color" name="appWindowBackground"/>
+    <attr format="color" name="buttonFill"/>
+    <attr format="color" name="buttonTextColor"/>
+    <attr format="color" name="cardBackground"/>
+    <attr format="color" name="iconColor"/>
+    <attr format="color" name="textColor"/>
+    <attr format="color" name="textColorSecondary"/>
+    <color name="backgroundDark">#FFFFFF</color>
+    <color name="backgroundLight">#2C2C2C</color>
+    <color name="background_default">#f2f2f2</color>
+    <color name="cards">#F2F2F2</color>
+    <color name="dark_background">#333333</color>
+    <color name="ic_launcher_background">#26A69A</color>
+    <color name="primary">#00AEB7</color>
+    <color name="primary_variant">#00878F</color>
+    <color name="teal_200">#03DAC5</color>
+    <color name="text_primary">#eeeeee</color>
+    <item name="appbar" type="id"/>
+    <string name="app_name">NoteTakingApp</string>
+    <string name="darkToggle">Toggle Dark Mode</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="instructions">Touch and move the image.  Touch with a second finger to scale.</string>
+    <string name="lightToggle">Toggle Light Mode</string>
+    <string name="resetbuttontext">Reset</string>
+    <string name="statuspanelhint">(status)</string>
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        
+        <item name="appWindowBackground">@color/background_default</item>
+        <item name="cardBackground">#f2f2f2</item>
+        <item name="textColor">@color/backgroundLight</item>
+        <item name="iconColor">#6A6A6A</item>
+        <item name="buttonFill">@color/primary</item>
+        <item name="buttonTextColor">@color/background_default</item>
+    </style>
+    <style name="DarkAppTheme" parent="AppTheme">
+
+        <item name="appWindowBackground">@color/dark_background</item>
+        <item name="cardBackground">#626161</item>
+        <item name="textColor">@color/backgroundDark</item>
+        <item name="iconColor">@color/text_primary</item>
+        <item name="buttonFill">@color/primary</item>
+        <item name="buttonTextColor">@color/background_default</item>
+    </style>
+</resources>

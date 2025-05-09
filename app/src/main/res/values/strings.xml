@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="instructions">Touch and move the image.  Touch with a second finger to scale.</string>
+    <string name="app_name">NoteTakingApp</string>
+    <string name="statuspanelhint">(status)</string>
+    <string name="resetbuttontext">Reset</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="darkToggle">Toggle Dark Mode</string>
+    <string name="lightToggle">Toggle Light Mode</string>
+
+</resources>

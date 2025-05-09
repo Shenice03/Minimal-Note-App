@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <EditText
+        android:id="@+id/editTextTaskInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter new task"
+        android:inputType="text"
+        android:padding="12dp"
+        android:background="@drawable/edit_text_background"
+        android:textColor="?attr/textColor" />
+
+    <LinearLayout
+        android:id="@+id/taskListContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="12dp" />
+
+
+    <Button
+        android:id="@+id/buttonAddTask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Task"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="?attr/buttonFill"
+        android:textColor="?attr/textColor" />
+
+    <Button
+        android:id="@+id/buttonClearTasks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Clear All Tasks"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="?attr/buttonFill"
+        android:textColor="?attr/textColor" />
+
+    <EditText
+        android:id="@+id/editTextTaskTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Rename Task List Title"
+        android:padding="12dp"
+        android:layout_marginBottom="12dp"
+        android:textColor="?attr/textColor" />
+
+    <Button
+        android:id="@+id/buttonSaveTaskList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="?attr/buttonFill"
+        android:textColor="?attr/textColor" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewTasks"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingTop="16dp" />
+</LinearLayout>
