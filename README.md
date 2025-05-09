@@ -32,7 +32,7 @@
 
 ---
 
-## Getting Started
+## How to Run
 
 To run this app locally:
 
