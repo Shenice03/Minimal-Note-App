@@ -34,7 +34,7 @@
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 To run this app locally:
 
