@@ -38,4 +38,4 @@ To run this app locally:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/shenice03/MinimalNote-App.git
+   git clone https://github.com/shenice03/Minimal-Note-App.git
