@@ -1,4 +1,4 @@
-# 📝 Minimal Note - Android App
+# Minimal Note - Android App
 
 **Minimal Note** is a lightweight Android note-taking app built in Java. Designed with simplicity and functionality in mind, the app allows users to create and manage regular notes or interactive task lists using a clean, intuitive interface.
 
